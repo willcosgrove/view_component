@@ -418,7 +418,7 @@ module ViewComponent
       end
 
       def collection_counter_parameter
-        "#{collection_parameter}_counter".to_sym
+        "#{collection_parameter}_iterator".to_sym
       end
 
       def counter_argument_present?
